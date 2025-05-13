@@ -57,3 +57,65 @@ padding: 24px 0;
   text-align: center;
   padding: 24px 0;
 }
+
+.escola-titulo{
+  text-align: center;
+  padding: 24px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 768px){
+  .cabecalho{
+    flex-direction: column;
+    text-align: center;
+  }
+
+.cabecalho-lista-item{
+  display: block;
+  margin: 8px;
+}
+
+.escola{
+  flex-direction: column;
+  text-align: center;
+  padding: 10px;
+}
+
+.escola-imagem{
+  width: 100px;
+}
+
+.estudantes-todos{
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr);
+  padding: 0% 10px;
+}
+}
